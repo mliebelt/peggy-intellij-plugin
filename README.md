@@ -4,6 +4,20 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
+## Overview
+
+I am developing and using the `@mliebelt/pgn-parser` now since years, and I missed all the time a way to handle the peggy grammar file more easily. As long as everything is working, no big deal, but finding errors, references,  ... is all about search-and-replace, without any support for anything.
+
+What I would like to have is:
+
+* A structure view that shows the elements of the grammar in a "useful" way.
+* Usage that works like expected (no full text search, but search of grammar tokens)
+* Support for rendering / implementing functions in grammar files with Javascript
+
+I will try to create first an idea what is needed overall, and create tickets for the different steps needed. Then let us see what is needed at the end, to have "something useful" working.
+
+----
+
 ## Template ToDo list
 - [x] Create a new [IntelliJ Platform Plugin Template][template] project.
 - [ ] Get familiar with the [template documentation][template].
