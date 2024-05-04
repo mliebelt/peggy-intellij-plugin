@@ -10,6 +10,12 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.mliebelt.peggyintellijplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <fileType
+                name="Peggy File"
+                implementationClass="com.github.mliebelt.peggyintellijplugin.language.PeggyFileType"
+                fieldName="INSTANCE"
+                language="Peggy"
+                extensions="pegjs"/>
     </extensions>
 
     <applicationListeners>
